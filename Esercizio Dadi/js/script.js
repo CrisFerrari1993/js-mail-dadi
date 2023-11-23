@@ -20,10 +20,10 @@ btnConfirm.addEventListener('click',
             alert('Hai vinto!!!')
             document.getElementById('resoult').innerHTML = 'Hai vinto perchè il dado ha dato: ' + tuaScelta + ' e il quello del pc: ' + pcScelta;
         } else if (tuaScelta === pcScelta) {
-            alert('Pare3ggio!!!')
+            alert('Pareggio!!!')
             document.getElementById('resoult').innerHTML = 'Pareggio perchè il dado ha dato: ' + tuaScelta + ' e il quello del pc: ' + pcScelta;
             console.log('Hai perso');
-        } else {console.log('Hai vinto');
+        } else {console.log('Hai perso');
             alert('Hai Perso!!!')
             document.getElementById('resoult').innerHTML = 'Hai perso perchè il dado ha dato: ' + tuaScelta + ' e il quello del pc: ' + pcScelta;
             console.log('Hai perso');
